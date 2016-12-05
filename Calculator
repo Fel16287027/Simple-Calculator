@@ -1,0 +1,17 @@
+num1 = int(input("Please enter your first number: "))
+function = input("Please type the function you would like to use (+, -, *, /): ")
+num2 = int(input("Please enter your second number: "))
+
+x = num1
+y = num2
+
+if(function == "+"):
+   print(x+y)
+elif(function == "-"):
+    print(x-y)
+elif(function == "*"):
+    print(x*y)
+elif(function == "/"):
+    print(x/y)
+else:
+    print("That is not a correct function.")
